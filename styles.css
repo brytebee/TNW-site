@@ -40,13 +40,44 @@ header{
 
 .latest-news-article{
     height: 150px;
-    width: 150px;
+    width:250px;
     background-color: seagreen;
+    margin-top: 20px;
 }
 
 .flex-section{
     display:flex;
     margin: 0 auto;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
 
+.latest-funding {
+    height: 180px;
+    background-color: lightsalmon;
+    margin: 1% 2%;
+}
+
+.latest-funding-article {
+    height: 150px;
+    width:250px;
+    background-color: blue;
+    margin-top: 20px;
+}
+
+.resources {
+    background-color: rgb(214, 82, 82);
+    height: 600px;
+    margin: 1% 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.resources-section {
+    background-color: white;
+    height: 180px;
+    margin: 0 10px;
 }
