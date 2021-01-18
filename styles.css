@@ -1,3 +1,52 @@
 body {
     background-color: lightgray;
+    margin-top: 0%;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+}
+
+.first-header{
+    background-color: black;
+}
+
+.second-header{
+    background-color: white;
+}
+
+.cover-section{
+    display: grid;
+    background-color: thistle;
+    height: 400px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin: 1%;
+}
+
+.big-cover{
+    grid-row: 1/3;
+    background-color: turquoise;
+}
+.small-cover1{
+    background-color: yellow;
+}
+.small-cover2{
+    background-color: yellowgreen;
+}
+
+.latest-news-article{
+    height: 150px;
+    width: 150px;
+    background-color: seagreen;
+}
+
+.flex-section{
+    display:flex;
+    margin: 0 auto;
+    justify-content: space-around;
+
 }
