@@ -88,18 +88,35 @@ header{
 }
 
 .latest-news-article, .latest-deals-article{
-    height: 150px;
-    width:250px;
-    background-color: seagreen;
+    height: 5%;
+    width:20%;
+    background-color: rgb(255, 255, 255);
     margin-top: 20px;
 }
 
+.latest-news-image{
+    width: 100%;
+    height: 70%;
+    display: block;
+}
+.article-info{
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+    opacity: 50%;
+    display: inline;
+}
 
+.latest-news-section{
+    /* width: 70%;
+    margin:auto; */
+}
 .flex-section{
     display:flex;
     /* margin: 0 auto; */
     margin: 1% 2%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
