@@ -10,26 +10,26 @@ header{
 .first-header{
     background-color: black;
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: space-between;
     height: 30px;
 }
 
-.first-header .left-nav { 
+.first-header .left-nav {
     /* margin-left: 1%; */
 }
 
-.first-header .right-nav { 
+.first-header .right-nav {
     /* margin-right: 1%; */
 }
 
-.first-header .left-nav a, .first-header .right-nav a{ 
+.first-header .left-nav a, .first-header .right-nav a{
     color: rgb(160, 160, 160);
     text-decoration: none;
     padding: 0 10px;
 }
 
-.first-header .left-nav a:hover, .first-header .right-nav a:hover{ 
+.first-header .left-nav a:hover, .first-header .right-nav a:hover{
     color: white;
     text-decoration: none;
 }
@@ -47,11 +47,11 @@ header{
     min-width: 100px;
     min-height: 200;
     padding: 2% 2%;
-    z-index: 99;
+    z-index: 1;
 }
 
 .dropdown-link:hover .dropdown-menu{
-    display: block;
+    display: inline;
 }
 
 .second-header{
@@ -74,6 +74,12 @@ header{
     grid-row: 1/3;
     background-color: turquoise;
 }
+
+.big-cover-image {
+  max-width: 100%;
+  height: auto;
+}
+
 .small-cover1{
     background-color: yellow;
 }
