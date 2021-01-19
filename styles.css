@@ -25,6 +25,7 @@ img {
   color: rgb(160, 160, 160);
   text-decoration: none;
   padding: 0 10px;
+  font-size: 11px;
 }
 
 .first-header .left-nav a:hover, .first-header .right-nav a:hover {
@@ -63,7 +64,7 @@ img {
   text-decoration: none;
   color: darkgray;
   margin-right: 10px;
-  font-size: 14px;
+  font-size: 12px;
 }
 .fa-search{
   opacity: .5;
@@ -72,8 +73,8 @@ img {
 
 .cover-section {
   display: grid;
-  background-color: thistle;
-  height: 400px;
+  background-color: rgb(255, 241, 255);
+  height: 300px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-column-gap: 20px;
@@ -81,11 +82,47 @@ img {
   margin: 1%;
 }
 
+.cover-story img{
+  max-height: 100%;
+}
 .big-cover {
   grid-row: 1/3;
   background-color: turquoise;
+  position: relative;
 }
 
+
+
+.cover-details .date{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: white;
+}
+
+.cover-details .article-title{
+  position: absolute;
+  bottom: 1px;
+  left: 1px;
+  font-size: 50px;
+  color: white;
+}
+
+.cover-details ul{
+  position: absolute;
+  bottom: 1px;
+  left: 1px;
+  display: flex;
+}
+ul li{
+  list-style-type: none;
+  margin: 0 12px;
+  font-size: 12px;
+}
+
+ul.article-info > *{
+  color: rgb(143, 143, 143);
+}
 .big-cover-image {
   max-width: 100%;
   height: auto;
