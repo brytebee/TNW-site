@@ -1,5 +1,5 @@
 body {
-  background-color: lightgray;
+  background-color: rgb(255, 255, 255);
   margin: 0%;
 }
 
@@ -19,14 +19,6 @@ img {
   align-items: center;
   justify-content: space-between;
   height: 30px;
-}
-
-.first-header .left-nav {
-  /* margin-left: 1%; */
-}
-
-.first-header .right-nav {
-  /* margin-right: 1%; */
 }
 
 .first-header .left-nav a, .first-header .right-nav a {
@@ -62,7 +54,20 @@ img {
 
 .second-header {
   background-color: white;
-  height: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.second-header a{
+  text-decoration: none;
+  color: darkgray;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.fa-search{
+  opacity: .5;
+  transform:  scaleX(-1);
 }
 
 .cover-section {
