@@ -349,9 +349,29 @@ ul.article-info > * {
 }
 
 .footer1 {
-  height: 200px;
+  height: 150px;
   width: 100%;
-  background-color: darkslategrey;
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.footer1-icon {
+  padding-bottom: 10px;
+}
+
+.footer1-sicials {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 50%;
+  border: 1px white solid;
+  background-color: darkgray;
+}
+.footer1-sicials:hover {
+  background-color: black;
 }
 
 .footer2 {
@@ -362,6 +382,15 @@ ul.article-info > * {
   align-items: center;
   justify-content: center;
 }
+
+.footer2-logo {
+  width: 40px;
+}
+
+.footer2-logo2 {
+  width: 70px;
+}
+
 .footer-text{
   color: linen;
   font-size: 12px;
