@@ -1,7 +1,6 @@
 body {
   background-color: rgb(255, 255, 255);
   margin: 0%;
-  font-family: 'Balsamiq Sans', cursive;
 }
 
 header {
@@ -23,7 +22,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 40px;
+  height: 30px;
   position: relative;
 }
 
@@ -52,7 +51,7 @@ a {
   background-color: black;
   color: lightgray;
   min-width: 100px;
-  min-height: 200;
+  min-height: 200px;
   padding: 2% 2%;
   z-index: 999;
 }
@@ -62,15 +61,14 @@ a {
 }
 
 .second-header {
-  position: sticky;
-  top: 0;
-  overflow: hidden;
-  z-index: 99;
   background-color: white;
   height: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* position: fixed;
+    top: 0;
+    z-index: 9999; */
 }
 
 .second-header a {
@@ -107,6 +105,10 @@ a {
       rgb(206, 114, 86));
   position: relative;
   font-weight: bold;
+}
+
+.cover-story img {
+  max-height: 100%;
 }
 
 .big-cover {
@@ -227,9 +229,7 @@ ul.article-info>* {
   padding-top: 20%;
 }
 
-
 /* Last fundiing section */
-
 .latest-funding-header {
   display: flex;
   justify-content: space-between;
@@ -320,24 +320,19 @@ ul.article-info>* {
 .lastest-funding-description {
   padding-left: 15px;
 }
-/* Resources Section  */
 
 .resources {
-  margin: 1% 3%;
+  margin: 1% 2%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-column-gap: 12px;
-  grid-row-gap: 25px;
+  grid-column-gap: 0px;
+  grid-row-gap: 20px;
 }
 
 .resources-section {
   background-color: white;
   margin: 1% 2%;
-}
-
-.resources-article .section-header-title {
-  margin-bottom: 4rem;
 }
 
 .resources-footer-header {
@@ -346,26 +341,8 @@ ul.article-info>* {
 
 .resources-floating-content {
   position: absolute;
-  top: 120px;
+  top: 70px;
   padding-left: 15px;
-}
-
-.resources-floating-content h5,
-.resources-body-part span {
-  margin-block: 0.3em;
-  font-size: 0.7rem
-}
-
-.resources-floating-content p {
-  margin-block: 0.1em;
-  text-transform: uppercase;
-  font-size: 0.92rem;
-}
-
-.resources-floating-content span {
-  margin-block: 0;
-  font-size: 0.8rem;
-  opacity: 0.6;
 }
 
 .resources-floating-content-link {
@@ -374,11 +351,7 @@ ul.article-info>* {
 
 .resources-body-part {
   background-color: #fff4f2;
-  height: 4.5rem;
-}
-
-.resources-body-part a {
-  font-size: 0.8rem;
+  height: 5.5rem;
 }
 
 .resources-body-content {
@@ -401,21 +374,19 @@ ul.article-info>* {
 
 .resources-body-img {
   position: absolute;
-  top: 5px;
+  top: 8px;
   right: 0;
   width: 22%;
 }
 
 .resources-list {
-  padding-inline-start: 20px;
-  margin-block: 0.5em;
+  padding-inline-start: 15px;
 }
 
 .resources-list a {
   color: #6d6565;
   padding-bottom: 90px;
   padding-top: 90px;
-  font-size: 0.9rem;
 }
 
 .resources-list a:hover {
@@ -429,12 +400,6 @@ ul.article-info>* {
   display: inline-block;
   width: 1em;
   margin-left: -1em;
-}
-
-.latest-resources-hr {
-  border: 1px solid #ffcdc2;
-  opacity: 0.4;
-  margin-block: 2px;
 }
 
 .footer1 {
@@ -452,17 +417,12 @@ ul.article-info>* {
   padding-bottom: 10px;
 }
 
-.footer1-links a {
-  color: #505050;
-}
-
 .footer1-sicials {
   padding: 8px;
   margin: 5px;
   border-radius: 50%;
   border: 1px white solid;
   background-color: darkgray;
-  color: white;
 }
 
 .footer1-sicials:hover {
@@ -489,64 +449,4 @@ ul.article-info>* {
 .footer-text {
   color: linen;
   font-size: 12px;
-}
-@media (max-width: 1025px) {
-  .last-funding {
-    display: none;
-  }
-}
-@media (max-width: 768px) {
-  .first-header{
-    display: none;
-  }
-  .big-cover {
-    grid-row: 1/2;
-  }
-  .cover-section {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
-  }
-  .cover-story .cover-details .date {
-    display: none;
-  }
-  .cover-story .article-title,
-  .big-cover .cover-details .article-title {
-    font-size: 11px;
-  }
-  .flex-section {
-    flex-direction: column;
-    width: 100%;
-  }
-  .latest-news-article,
-  .latest-deals-article {
-    height: 5%;
-    width: 100%;
-    background-color: rgb(240, 240, 240);
-    margin-top: 20px;
-    display: flex;
-  }
-  .latest-news-image,
-  .deal-img {
-    width: 15%;
-    height: 15%;
-  }
-  .main-section {
-    width: 100%;
-    margin: 0 auto;
-    background-color: rgb(246, 246, 246);
-  }
-  .latest-funding {
-    flex-direction: column;
-  }
-  .latest-funding-article {
-    background-color: #fffaf8;
-    position: relative;
-    width: 70%;
-  }
-  .latest-funding-image {
-    position: absolute;
-    top: 15px;
-    left: 10px;
-    width: 10%;
-  }
 }
