@@ -1,76 +1,42 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# THE NEXT WEB CLONE
+***
+This project is about building a page similar to the homepage of THE NEXT WEB.
 
-> One paragraph statement about the project.
+## Built with:
 
-![screenshot](./app_screenshot.png)
+* HTML5 semantic tags,
 
-Additional description about the project and its features.
+* CSS3 (Media Queries).
 
-## Built With
+## Sceenshoot
 
-- Major languages
-- Frameworks
-- Technologies used
+Current version as commit date
+![alt text](https://github.com/brytebee/TNW-site/blob/main/screenshoot.png)
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+https://brytebee.github.io/TNW-site/
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+## Installation
+All that is required is the code to get started
 
 ## Authors
 
-👤 **Author1**
+👤 Author 1
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+GitHub: @Bishoy-Samwel
 
-👤 **Author2**
+Twitter: @BishoFaheem15
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+LinkedIn: https://www.linkedin.com/in/bishoy-samwuel-ss/
 
-## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+👤 Author 2
 
-Feel free to check the [issues page](issues/).
+GitHub: @brytebee
 
-## Show your support
+Twitter: @brytebee
 
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
+LinkedIn: www.linkedIn.com/in/brytebee
