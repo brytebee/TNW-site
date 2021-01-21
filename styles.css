@@ -112,6 +112,7 @@ a {
 .cover-story {
   position: relative;
   font-weight: bold;
+  border: solid 3px white;
 }
 
 .big-cover {
@@ -159,6 +160,11 @@ a {
 
 ul.article-info>* {
   color: rgb(143, 143, 143);
+  list-style-type: none;
+}
+
+.article-info i{
+  padding:0 5%;
 }
 
 .cover-img {
