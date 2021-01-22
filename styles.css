@@ -50,10 +50,6 @@ a {
   margin: 0 4px;
 }
 
-.second-header a:hover {
-  color: black;
-}
-
 .resources-list a {
   color: #6d6a65;
   padding-bottom: 90px;
@@ -63,6 +59,23 @@ a {
 
 .resources-body-part a {
   font-size: 0.8rem;
+}
+
+.second-header a {
+  text-decoration: none;
+  color: darkgray;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.second-header a:hover {
+  color: black;
+}
+
+.resources-body-content a {
+  color: #f42;
+  display: block;
+  text-align: left;
 }
 
 .resources-list a:hover {
@@ -101,13 +114,6 @@ a {
 
 .dropdown-link:hover .dropdown-menu {
   display: block;
-}
-
-.second-header a {
-  text-decoration: none;
-  color: darkgray;
-  margin-right: 10px;
-  font-size: 12px;
 }
 
 .tnw-logo-navbar {
@@ -445,12 +451,6 @@ ul.article-info > * {
   padding-bottom: 10px;
 }
 
-.resources-body-content a {
-  color: #f42;
-  display: block;
-  text-align: left;
-}
-
 .resources-body-img {
   position: absolute;
   top: 5px;
@@ -717,5 +717,14 @@ ul.article-info > * {
   .resources {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(9, 1fr);
+  }
+
+  .latest-news-image {
+    padding-top: 5%;
+  }
+
+  .article-title {
+    font-size: 0.9rem;
+    margin-bottom: 2px;
   }
 }
