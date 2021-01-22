@@ -14,9 +14,16 @@ Using a mobile first approach we added two other breakpoints for tablets and des
 ## Sceenshoot
 
 Current version as commit date
+# Desktop
 ![alt text](https://github.com/brytebee/TNW-site/blob/4998afe225c8f075da58c8bc70984fed43eab972/brytebee.github.io_TNW-site_%20-%20Desktop.png)
 
-## Live Demo
+# Tablet
+![alt text](https://github.com/brytebee/TNW-site/blob/main/brytebee.github.io_TNW-site_%20-%20Tablet.png)
+
+# Desktop
+![alt text](https://github.com/brytebee/TNW-site/blob/main/brytebee.github.io_TNW-site_%20%20-mobile%20L.png)
+
+## Mobile Phones
 
 https://brytebee.github.io/TNW-site/
 
