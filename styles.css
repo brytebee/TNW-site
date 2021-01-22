@@ -555,15 +555,17 @@ ul.article-info > * {
   }
 }
 
-@media (max-width: 768px) {
-  .first-header {
-    display: none;
+@media (min-width: 480px), (min-width: 768px) {
+
+  .right-nav, .left-nav {
+    display: inline;
+    padding: 0;
   }
 
   .cover-section {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
-    background-image: 
+    background-image:
     linear-gradient(
       to right,
       rgb(72, 120, 192),
@@ -636,6 +638,10 @@ ul.article-info > * {
 }
 
 @media screen and (max-width: 480px) {
+  .first-header {
+    display: none;
+  }
+
   .right-nav {
     display: none;
   }
