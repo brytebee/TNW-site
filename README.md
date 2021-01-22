@@ -13,7 +13,7 @@ This project is about building a page similar to the homepage of THE NEXT WEB.
 ## Sceenshoot
 
 Current version as commit date
-![alt text](https://github.com/brytebee/TNW-site/blob/main/screenshoot.png)
+![alt text](https://github.com/brytebee/TNW-site/blob/4998afe225c8f075da58c8bc70984fed43eab972/brytebee.github.io_TNW-site_%20-%20Desktop.png)
 
 ## Live Demo
 
