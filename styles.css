@@ -18,7 +18,7 @@ a {
   text-decoration: none;
 }
 
-.tnw-logo-main{
+.tnw-logo-main {
   display: none;
 }
 
@@ -48,9 +48,7 @@ a {
   font-family: serif;
   font-size: 0.8rem;
   margin: 0 4px;
-  
 }
-
 
 .resources-list a {
   color: #6d6a65;
@@ -121,7 +119,6 @@ a {
   display: none;
 }
 
-/* cover section styles */
 .cover-section {
   display: grid;
   background-color: rgb(243, 243, 243);
@@ -169,8 +166,6 @@ a {
 
 .big-cover .cover-details .article-title {
   position: absolute;
-  /* bottom: 1px;
-  left: 1px; */
   font-size: 30px;
   color: white;
 }
@@ -188,8 +183,7 @@ ul.article-info > * {
   font-size: 12px;
 }
 
-
-.article-info{
+.article-info {
   padding-inline-start: 0px;
 }
 
@@ -197,11 +191,13 @@ ul.article-info > * {
   padding: 0 5%;
 }
 
-.article-info p, .deal-info p{
+.article-info p,
+.deal-info p {
   margin-right: 2%;
   color: #9e9e9e;
   font-size: 13px;
 }
+
 .cover-img {
   width: 100%;
   height: 100%;
@@ -222,17 +218,17 @@ ul.article-info > * {
   margin-left: 2%;
 }
 
-.latest-article-desc{
+.latest-article-desc {
   display: flex;
   flex-direction: column;
-  margin-left:2%;
+  margin-left: 2%;
 }
 
 .latest-news-image {
   width: 100%;
   height: 70%;
   display: block;
-  margin-top: 2% ;
+  margin-top: 2%;
 }
 
 .article-info,
@@ -267,7 +263,6 @@ ul.article-info > * {
 
 .flex-section {
   display: flex;
-  /* margin: 0 auto; */
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -323,6 +318,7 @@ ul.article-info > * {
 .latest-funding-footer-group ul {
   list-style-type: none;
 }
+
 .top {
   text-align: left;
   padding-left: 40%;
@@ -376,6 +372,7 @@ ul.article-info > * {
 .lastest-funding-description {
   padding-left: 15px;
 }
+
 /* Resources Section  */
 
 .resources {
@@ -441,7 +438,7 @@ ul.article-info > * {
   color: #ff4422;
   display: block;
   padding-left: 15px;
-  background-color:#fff3f2  ;
+  background-color: #fff3f2;
 }
 
 .resources-body-content-header {
@@ -496,8 +493,6 @@ ul.article-info > * {
   padding-bottom: 10px;
 }
 
-
-
 .footer1-sicials {
   padding: 8px;
   margin: 5px;
@@ -543,38 +538,37 @@ ul.article-info > * {
   display: inline;
 }
 
-
-
-
 @media (min-width: 768), (max-width: 1025px) {
-  .tnw-logo-main{
+  .tnw-logo-main {
     display: block;
     background-color: black;
     width: 80px;
     height: 80px;
   }
 
-  .second-header-icon i{
+  .second-header-icon i {
     outline: 1px solid rgb(228, 228, 228);
     outline-offset: 20px;
     margin-right: 20px;
   }
 
-  .main-header{
+  .main-header {
     display: flex;
   }
-  .headers{
+
+  .headers {
     width: 100%;
   }
 
-  .cover-details .date{
+  .cover-details .date {
     display: none;
   }
+
   .last-funding {
     display: none;
   }
 
-  .latest-funding-header{
+  .latest-funding-header {
     flex-direction: column;
   }
 
@@ -609,24 +603,9 @@ ul.article-info > * {
 }
 
 @media (max-width: 768px) {
-  
-  /* .tnw-logo-navbar {
-    display: inline;
-    background-color: black;
-    width: 80px;
-    height: 100%;
-  } */
-
-
   .cover-section {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
-    /* background-image: 
-    linear-gradient(
-      to right,
-      rgb(72, 120, 192),
-      rgb(206, 114, 86)
-    ); */
   }
 
   .big-cover {
@@ -635,8 +614,7 @@ ul.article-info > * {
   }
 
   .img-wrapper {
-    display: inline-block; /* change the default display type to inline-block */
-    overflow: hidden;      /* hide the overflow */
+    display: inline-block;
   }
 
   .cover-story .cover-details .date {
@@ -646,14 +624,7 @@ ul.article-info > * {
   .cover-story .article-title,
   .big-cover .cover-details .article-title {
     font-size: 20px;
-    
   }
-
-  /* .cover-img {
-    width: 100%;
-    max-height: 170px;
-    object-fit: contain;
-  } */
 
   .flex-section {
     flex-direction: column;
@@ -685,7 +656,7 @@ ul.article-info > * {
     flex-direction: column;
   }
 
-  .section-header-link{
+  .section-header-link {
     display: flex;
     flex-direction: column;
   }
@@ -704,11 +675,11 @@ ul.article-info > * {
 }
 
 @media screen and (max-width: 480px) {
-  .first-header{
+  .first-header {
     display: none;
   }
 
-  .tnw-logo-main{
+  .tnw-logo-main {
     display: none;
   }
 
@@ -734,12 +705,12 @@ ul.article-info > * {
     padding-right: 5%;
   }
 
-  .second-header-icon i{
+  .second-header-icon i {
     outline: 1px solid rgb(228, 228, 228);
     outline-offset: 10px;
   }
 
-  .fa-bars{
+  .fa-bars {
     color: #f42;
   }
 
