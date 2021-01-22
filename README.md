@@ -20,10 +20,10 @@ Current version as commit date
 # Tablet
 ![alt text](https://github.com/brytebee/TNW-site/blob/main/brytebee.github.io_TNW-site_%20-%20Tablet.png)
 
-# Desktop
+# Mobile Phone
 ![alt text](https://github.com/brytebee/TNW-site/blob/main/brytebee.github.io_TNW-site_%20%20-mobile%20L.png)
 
-## Mobile Phones
+# Live Demo
 
 https://brytebee.github.io/TNW-site/
 
