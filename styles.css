@@ -1,3 +1,727 @@
 body {
-    background-color: lightgray;
+  background-color: rgb(255, 255, 255);
+  margin: 0%;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+header {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.tnw-logo-main {
+  display: none;
+}
+
+.first-header {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  position: relative;
+}
+
+.second-header {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  z-index: 999;
+  background-color: white;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer1-links a {
+  color: #6d6a6a;
+  font-family: serif;
+  font-size: 0.8rem;
+  margin: 0 4px;
+}
+
+.resources-list a {
+  color: #6d6a65;
+  padding-bottom: 90px;
+  padding-top: 90px;
+  font-size: 0.9rem;
+}
+
+.resources-body-part a {
+  font-size: 0.8rem;
+}
+
+.second-header a {
+  text-decoration: none;
+  color: darkgray;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.resources-body-content a {
+  color: #f42;
+  display: block;
+  text-align: left;
+}
+
+.second-header a:hover {
+  color: black;
+}
+
+.resources-list a:hover {
+  color: #241a1a;
+}
+
+.first-header .left-nav a,
+.first-header .right-nav a {
+  color: rgb(160, 160, 160);
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 11px;
+}
+
+.first-header .left-nav a:hover,
+.first-header .right-nav a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-link {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: black;
+  color: lightgray;
+  min-width: 100px;
+  min-height: 200px;
+  padding: 2% 2%;
+  z-index: 999;
+}
+
+.dropdown-link:hover .dropdown-menu {
+  display: block;
+}
+
+.tnw-logo-navbar {
+  display: none;
+}
+
+.fa-search {
+  opacity: 0.5;
+  transform: scaleX(-1);
+}
+
+.fa-bars {
+  display: none;
+}
+
+.cover-section {
+  display: grid;
+  background-color: rgb(243, 243, 243);
+  height: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  margin: 1%;
+  padding: 1%;
+}
+
+.cover-story {
+  position: relative;
+  font-weight: bold;
+  border: solid 3px white;
+}
+
+.big-cover {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+.tnw-logo {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+}
+
+.cover-details .date {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  color: white;
+}
+
+.cover-details .article-title {
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+  font-size: 25px;
+  color: white;
+}
+
+.big-cover .cover-details .article-title {
+  position: absolute;
+  font-size: 30px;
+  color: white;
+}
+
+.cover-details ul {
+  position: absolute;
+  bottom: 1px;
+  left: 10px;
+  display: flex;
+}
+
+ul.article-info > * {
+  color: rgb(219, 219, 219);
+  list-style-type: none;
+  font-size: 12px;
+}
+
+.article-info {
+  padding-inline-start: 0;
+}
+
+.article-info i {
+  padding: 0 5%;
+}
+
+.article-info p,
+.deal-info p {
+  margin-right: 2%;
+  color: #9e9e9e;
+  font-size: 13px;
+}
+
+.cover-img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-header-title {
+  color: #f42;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.latest-news-article,
+.latest-deals-article {
+  height: 5%;
+  width: 23%;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  margin-left: 2%;
+}
+
+.latest-article-desc {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+}
+
+.latest-news-image {
+  width: 100%;
+  height: 70%;
+  display: block;
+  margin-top: 2%;
+}
+
+.article-info,
+.deal-info {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.info,
+.light {
+  opacity: 0.5;
+  display: inline;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.old-price {
+  margin-right: 3%;
+}
+
+.new-price {
+  opacity: 0.8;
+}
+
+.main-section {
+  width: 75%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.flex-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.deal-img {
+  position: relative;
+}
+
+.deal-img-text {
+  position: absolute;
+  font-size: 10px;
+  background-color: rgb(255, 222, 74);
+  color: black;
+  transform: rotate(45deg);
+  top: -14px;
+  right: 0;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 20%;
+}
+
+/* Last fundiing section */
+
+.latest-funding-header {
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: -1px;
+  margin: auto;
+}
+
+.section-header-link {
+  color: #f42;
+}
+
+.funding-header-link {
+  text-decoration: none;
+  padding: 0.5rem;
+  color: #f42;
+  letter-spacing: 0.5px;
+}
+
+.funding-header-link:hover {
+  color: black;
+  opacity: 0.6;
+}
+
+.latest-funding-article {
+  background-color: #fffaf8;
+  position: relative;
+  width: 20%;
+}
+
+.latest-funding-footer-group ul {
+  list-style-type: none;
+}
+
+.top {
+  text-align: left;
+  padding-left: 40%;
+  padding-top: 10px;
+}
+
+.funding-top-header {
+  background-color: #f42;
+  margin: 0;
+  height: 40px;
+}
+
+.funding-bottom-header {
+  background-color: #ffebe7;
+  padding-bottom: 8px;
+}
+
+.latest-funding-image {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+.fund {
+  padding-bottom: 10px;
+  font-weight: bolder;
+}
+
+.fund-title {
+  font-size: 0.7em;
+}
+
+.latest-funding-footer-group {
+  padding-left: 10px;
+  font-size: 0.82em;
+}
+
+.latest-funding-footer-list {
+  list-style-type: none;
+  font-size: 1em;
+  padding-bottom: 10px;
+  padding-left: 0;
+}
+
+.latest-funding-hr {
+  border: 1px solid #ffcdc2;
+}
+
+.lastest-funding-description {
+  padding-left: 15px;
+}
+
+/* Resources Section  */
+
+.resources {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 12px;
+  grid-row-gap: 25px;
+}
+
+.resources-section {
+  background-color: white;
+  margin: 1% 2%;
+}
+
+.resources-article .section-header-title {
+  margin-bottom: 4rem;
+}
+
+.resources-footer-header {
+  position: relative;
+}
+
+.resources-floating-content {
+  position: absolute;
+  top: 40%;
+  padding-left: 15px;
+}
+
+.resources-floating-content h5,
+.resources-body-part span {
+  margin-block: 0.3em;
+  font-size: 0.7rem;
+}
+
+.resources-floating-content p {
+  margin-block: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.92rem;
+}
+
+.resources-floating-content span {
+  margin-block: 0;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+.resources-floating-content-link {
+  color: white;
+}
+
+.resources-body-part {
+  height: 4.5rem;
+}
+
+.resources-body-content {
+  position: relative;
+  padding: 10px 75px 10px 0;
+  color: #f42;
+  display: block;
+  padding-left: 15px;
+  background-color: #fff3f2;
+}
+
+.resources-body-content-header {
+  padding-bottom: 10px;
+}
+
+.resources-body-img {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  width: 22%;
+}
+
+.resources-list {
+  padding-inline-start: 20px;
+  margin-block: 0.5em;
+}
+
+.resources-list ul a::before {
+  content: "o";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.latest-resources-hr {
+  border: 1px solid #ffcdc2;
+  opacity: 0.4;
+  margin-block: 2px;
+}
+
+.footer1 {
+  height: 150px;
+  width: 100%;
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.footer1-icon {
+  padding-bottom: 10px;
+}
+
+.footer1-sicials {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 50%;
+  border: 1px white solid;
+  background-color: rgb(61, 61, 61);
+  color: white;
+}
+
+.footer1-sicials:hover {
+  background-color: black;
+}
+
+.footer2 {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer2-logo {
+  width: 40px;
+}
+
+.footer2-logo2 {
+  width: 70px;
+}
+
+.footer-text {
+  color: linen;
+  font-size: 12px;
+}
+
+.footer2-content {
+  width: 50%;
+  text-align: center;
+}
+
+.footer2-content p,
+.footer2-content img {
+  display: inline;
+}
+
+@media (min-width: 768), (max-width: 1025px) {
+  .tnw-logo-main {
+    display: block;
+    background-color: black;
+    width: 80px;
+    height: 80px;
+  }
+
+  .second-header-icon i {
+    outline: 1px solid rgb(228, 228, 228);
+    outline-offset: 20px;
+    margin-right: 20px;
+  }
+
+  .main-header {
+    display: flex;
+  }
+
+  .headers {
+    width: 100%;
+  }
+
+  .cover-details .date {
+    display: none;
+  }
+
+  .last-funding {
+    display: none;
+  }
+
+  .latest-funding-header {
+    flex-direction: column;
+  }
+
+  .latest-funding-article {
+    width: 30%;
+    margin-right: 2%;
+  }
+
+  .tnw-logo {
+    display: none;
+  }
+
+  .latest-news-article,
+  .latest-deals-article {
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    margin-right: 2%;
+  }
+
+  .flex-section {
+    justify-content: flex-start;
+  }
+
+  .resources {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+
+  .deal-img-text {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover-section {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .big-cover {
+    grid-row: 1/2;
+    grid-column: 1/1;
+  }
+
+  .img-wrapper {
+    display: inline-block;
+  }
+
+  .cover-story .cover-details .date {
+    display: none;
+  }
+
+  .cover-story .article-title,
+  .big-cover .cover-details .article-title {
+    font-size: 20px;
+  }
+
+  .flex-section {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .latest-news-article,
+  .latest-deals-article {
+    height: 5%;
+    width: 100%;
+    background-color: rgb(251, 251, 251);
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .latest-news-image,
+  .deal-img {
+    width: 90px;
+    height: 60px;
+  }
+
+  .main-section {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .latest-funding {
+    flex-direction: column;
+  }
+
+  .section-header-link {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .latest-funding-article {
+    background-color: #fffaf8;
+    position: relative;
+    width: 100%;
+  }
+
+  .latest-funding-image {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .first-header {
+    display: none;
+  }
+
+  .tnw-logo-main {
+    display: none;
+  }
+
+  .right-nav {
+    display: none;
+  }
+
+  .fa-bars {
+    display: block;
+    color: #f42;
+  }
+
+  .tnw-logo-navbar {
+    display: block;
+    background-color: black;
+    width: 80px;
+    height: 100%;
+  }
+
+  .second-header-icon {
+    display: flex;
+    width: 50px;
+    justify-content: space-between;
+    padding-right: 5%;
+  }
+
+  .second-header-icon i {
+    outline: 1px solid rgb(228, 228, 228);
+    outline-offset: 10px;
+  }
+
+  .resources {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+  }
+
+  .latest-news-image {
+    padding-top: 5%;
+  }
+
+  .article-title {
+    font-size: 0.9rem;
+    margin-bottom: 2px;
+  }
 }
